@@ -54,8 +54,11 @@ async function getpokemontype(){
         let value = 'progressbar' + i;
        let progressbar = document.getElementById(value);
        progressbar.classList.add(poketype);
+       let setbar =document.getElementById("progressbar1");
+       let greatvalue = setvalue(i) + "%";
+       progressbar.style.width = greatvalue ;
       
-       
+       console.log(greatvalue);
         console.log(value);
         console.log(poketype);
     };
@@ -91,6 +94,38 @@ let spzialdefensefield = document.getElementById('sp.df').innerHTML = spzialdefe
 
 let speed = currentpokemon['stats'][5]['base_stat'];
 let speedfield = document.getElementById('speed').innerHTML = speed;
+}
+
+function setvalue(i){
+
+if(i == 1){
+    let hp = currentpokemon['stats'][0]['base_stat'];
+    return hp ;
+};
+
+if(i == 2){
+
+let attack = currentpokemon['stats'][1]['base_stat'];
+return attack ;
+
+};
+
+if(i == 3){
+    let defense = currentpokemon['stats'][2]['base_stat'];
+    return defense ;
+};
+if(i == 4){
+    let spezialattack = currentpokemon['stats'][3]['base_stat'];
+    return spezialattack ;
+};
+if(i == 5){
+    let spzialdefense = currentpokemon['stats'][4]['base_stat'];
+    return spzialdefense ;
+};
+if(i == 6){
+    let speed = currentpokemon['stats'][5]['base_stat'];
+    return speed ;
+};
 }
 /*
 async function changeprogressbarcolor(){

@@ -1,0 +1,138 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(168, 46, 42);
+    width: 100%;
+    min-height: 100px;
+    color: aliceblue;
+}
+
+.header-theme{
+    display: flex;
+    width: 70%;
+    min-height: 115px;
+    justify-content: space-evenly;
+}
+
+.header-searchbar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 30%;
+}
+
+.header-theme-background{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.searchpokemon{
+
+}
+.searchpokemon-div{
+    background-color: black;
+    padding: 5%;
+    }
+
+.header-theme-content{
+    border: solid;
+    padding: 10px 0px;
+    border-radius: 14px;
+    width: 226px;
+    height: 71px;
+    margin: 0 auto;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    opacity: 1 !important;
+    width: unset;
+}
+.header-theme-content:hover{
+background-color: white;
+}
+
+
+.ashpic{
+ background-image: url(/imgandsvg/pokemon-ash-feature-image-1_uapv.jpg); 
+background-size: cover;
+opacity: 0.9;
+} 
+
+.header-theme1{
+
+} 
+.header-theme2{
+
+} 
+
+.header1{background-color:red;
+}
+
+.header2{
+    background-color: aqua;
+}
+
+.header3{
+    background-color: aliceblue;
+}
+
+.header4{
+    background-color: blue;
+}
+
+.header5{
+    background-color: green;
+}
+
+.header6{
+    background-color: burlywood;
+}
+
+.header7{
+    background-color: blueviolet;
+}
+
+.header8{
+    background-color: rgb(219, 219, 29);
+}
+
+.header9{
+    background-color: rgba(194, 160, 116, 0.596);
+}
+
+.header10{
+    background-color: rgba(24, 9, 9, 0.837);
+}
+
+.header11{
+    background-color: rgb(202, 106, 201);
+}
+
+.header12{
+    background-color: rgba(216, 195, 166, 0.615);
+}
+
+.header13{
+    background-color: rgba(178, 170, 170, 0.574)
+}
+
+.header14{
+    background-color: rgba(137, 43, 226, 0.675);
+}
+
+.header15{
+    background-color: rgba(90, 21, 154, 0.27);
+}
+
+.header16{
+    background-color: rgb(81, 214, 214);
+}
+
+.header17{
+    background-color: rgb(205, 67, 129);
+}
