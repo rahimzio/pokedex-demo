@@ -1,0 +1,17 @@
+async function loadpokemon(){
+    let url = 'https://pokeapi.co/api/v2/pokemon/';
+    let response = await fetch(url);
+    let pokemonname =  response['results'];
+    console.log(pokemonname);
+
+    let righturl = `https://pokeapi.co/api/v2/pokemon/${pokemonname}`;
+    let getpokemon = await fetch(righturl);
+
+    if(response.ok) {
+        currentpokemon = await getpokemon.json();
+        
+        console.log(currentpokemon);
+    }
+    pokeinfo();
+}
+results

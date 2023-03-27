@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+   
+     <title>pokedex</title>
+  </head>
+  <body onload="loadpokemon()">
+    <div>
+        <section>
+      <div class="pokedex-overlay">
+        <div id="pokedex-top">
+          <img class="exit-bnt" src="/imgandsvg/cross (1).png" />
+          <div id="pokedex-nr">#004</div>
+        </div>
+        <div class="poke-img">
+        <img class="scroll-left" src="/imgandsvg/scroll.png">
+        <img id="img"/>
+        <img class="scroll-right"src="/imgandsvg/scroll.png">
+        </div>
+      </div>
+        </section>
+
+        <section>
+      <div class="pokedex-middle">
+        <h2 id="name"></h2>
+
+        <div class="typefield">
+        <h1 class="type" id="type"></h1>
+        <h1 class="type" id="type2"></h1>
+        </div>
+
+        <div class="measurment">
+          <div class="weight column">
+            <div id="weight"></div>
+            <span class="opacity">Weight</span>
+          </div>
+
+          <div class="height column">
+            <div id="height"></div>
+            <span class="opacity">Height</span>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stats-top">
+            <h2>Base stats</h2>
+          </div>
+
+          <div class="hp rows">
+            <div class="stats-attribute"><div>HP</div></div>
+            <div id="hp" class="stats-value"></div>
+            <div  class="progress">
+                <div id="progressbar1" class="progress-bar" role="progressbar" style="width: 65%"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="attack rows">
+            <div class="stats-attribute"><div>Attack</div></div>
+            <div id="attack" class="stats-value"></div>
+              <div class="progress">
+                <div id="progressbar2" class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </div>
+
+          <div class="defense rows">
+            <div class="stats-attribute"><div>Defense</div></div>
+            <div id="defense" class="stats-value"></div>
+              <div class="progress">
+                <div id="progressbar3" class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+      
+
+            <div class="sp-attack rows"> 
+                <div class="stats-attribute"><div>Sp. Attack</div></div>
+                <div id="sp.at" class="stats-value"></div>
+              <div class="progress">
+                <div id="progressbar4" class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="sp-defense rows">
+                <div class="stats-attribute"><div>Sp. Defense</div></div>
+                <div id="sp.df" class="stats-value"></div>
+              <div class="progress">
+                <div id="progressbar5" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="speed rows">
+                <div class="stats-attribute"><div>Speed</div></div>
+                <div id="speed" class="stats-value"></div>
+              <div class="progress">
+                <div id="progressbar6" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>

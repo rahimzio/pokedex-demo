@@ -1,0 +1,85 @@
+@import url(card.css);
+
+body{
+    margin: 0;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*for the pokemon types*/
+.fire{background-color:red;
+}
+
+.flying{
+    background-color: aqua;
+}
+
+.normal{
+    background-color: aliceblue;
+}
+
+.water{
+    background-color: blue;
+}
+
+.grass{
+    background-color: green;
+}
+
+.fighting{
+    background-color: burlywood;
+}
+
+.poison{
+    background-color: blueviolet;
+}
+
+.electric{
+    background-color: rgb(219, 219, 29);
+}
+
+.rock{
+    background-color: rgba(194, 160, 116, 0.596);
+}
+
+.dark{
+    background-color: rgba(24, 9, 9, 0.837);
+}
+
+.fairy{
+    background-color: rgb(202, 106, 201);
+}
+
+.ground{
+    background-color: rgba(216, 195, 166, 0.615);
+}
+
+.stell{
+    background-color: rgba(178, 170, 170, 0.574)
+}
+
+.dragon{
+    background-color: rgba(137, 43, 226, 0.675);
+}
+
+.ghost{
+    background-color: rgba(90, 21, 154, 0.27);
+}
+
+.ice{
+    background-color: rgb(81, 214, 214);
+}
+
+.psychic{
+    background-color: rgb(205, 67, 129);
+}
